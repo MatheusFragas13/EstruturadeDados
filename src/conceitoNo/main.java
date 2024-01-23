@@ -17,7 +17,7 @@ public class main {
 
         System.out.println(no1);
         System.out.println(no1.getproximoNo()); //No1 apontando pro no2 atraves do get
-        System.out.println(no2);
+        //System.out.println(no2);
 
         System.out.println("--------------------------------------");
 
@@ -25,7 +25,7 @@ public class main {
         System.out.println(no1.getproximoNo().getproximoNo());
         System.out.println(no1.getproximoNo().getproximoNo().getproximoNo());
         System.out.println(no1.getproximoNo().getproximoNo().getproximoNo().getproximoNo());//apos o no4 sera nullo!
-        System.out.println(no1.getproximoNo().getproximoNo().getproximoNo().getproximoNo().getproximoNo()); //erro pois não tem atribuição nesse nó
+        //erro pois não tem atribuição nesse nó
 
         System.out.println("--------------------------------------");
     }
